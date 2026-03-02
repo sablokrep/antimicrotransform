@@ -102,6 +102,8 @@ version = "0.1.0"
 dependencies = [
  "candle-core",
  "candle-coreml",
+ "clap",
+ "rayon",
 ]
 
 [[package]]

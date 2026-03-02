@@ -6,3 +6,13 @@ edition = "2024"
 [dependencies]
 candle-core = "0.9.2"
 candle-coreml = "0.3.1"
+clap = { version = "4.5.60", features = ["derive"] }
+rayon = "1.11.0"
+candle-nn = { git = "https://github.com/huggingface/candle.git", rev = "main" }
+candle-transformers = { git = "https://github.com/huggingface/candle.git", rev = "main" }
+tokenizers = "0.19"
+rand = "0.8"
+anyhow = "1"
+bio = "1.1"               # ← for FASTA reading
+safetensors = "0.4"       # for saving checkpoints
+indicatif = "0.17"
